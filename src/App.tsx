@@ -13,6 +13,7 @@ import { Journal } from "./pages/Journal";
 import { Risk } from "./pages/Risk";
 import { AIGuidance } from "./pages/AIGuidance";
 import { Settings } from "./pages/Settings";
+import { LiveChart } from "./pages/LiveChart";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="risk" element={<Risk />} />
           <Route path="ai-mentor" element={<AIGuidance />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="chart/:symbol" element={<LiveChart />} />
         </Route>
       </Routes>
     </BrowserRouter>
