@@ -6,6 +6,7 @@ import {
   Activity, 
   ShieldAlert, 
   BotMessageSquare, 
+  BookOpen,
   Settings 
 } from "lucide-react";
 import { cn } from "../../utils/cn";
@@ -15,6 +16,7 @@ const navItems = [
   { name: "Performance", href: "/performance", icon: LineChart },
   { name: "Behavioral Analysis", href: "/behavioral", icon: BrainCircuit },
   { name: "Live Trades", href: "/live-trades", icon: Activity },
+  { name: "Trade Journal", href: "/journal", icon: BookOpen },
   { name: "Risk Diagnostics", href: "/risk", icon: ShieldAlert },
   { name: "AI Mentor", href: "/ai-mentor", icon: BotMessageSquare },
   { name: "Settings", href: "/settings", icon: Settings },

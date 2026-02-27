@@ -9,6 +9,7 @@ import { Dashboard } from "./pages/Dashboard";
 import { Performance } from "./pages/Performance";
 import { Behavioral } from "./pages/Behavioral";
 import { LiveTrades } from "./pages/LiveTrades";
+import { Journal } from "./pages/Journal";
 import { Risk } from "./pages/Risk";
 import { AIGuidance } from "./pages/AIGuidance";
 import { Settings } from "./pages/Settings";
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="performance" element={<Performance />} />
           <Route path="behavioral" element={<Behavioral />} />
           <Route path="live-trades" element={<LiveTrades />} />
+          <Route path="journal" element={<Journal />} />
           <Route path="risk" element={<Risk />} />
           <Route path="ai-mentor" element={<AIGuidance />} />
           <Route path="settings" element={<Settings />} />
